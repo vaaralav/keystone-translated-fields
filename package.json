@@ -7,7 +7,8 @@
     "compile": "babel src -d lib --ignore *.test.js",
     "test": "jest",
     "test:watch": "yarn test -- --watch",
-    "dev": "watch 'yarn run compile' src"
+    "watch": "watch 'yarn run compile' src",
+    "prepublish": "yarn run compile"
   },
   "repository": {
     "type": "git",
