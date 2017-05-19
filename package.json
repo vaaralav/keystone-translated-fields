@@ -1,0 +1,37 @@
+{
+  "name": "keystone-translated-fields",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "compile": "babel src -d lib --ignore *.test.js",
+    "test": "jest",
+    "test:watch": "yarn test -- --watch",
+    "dev": "watch 'yarn run compile' src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaaralav/keystone-translated-fields.git"
+  },
+  "keywords": [
+    "keystone",
+    "i18n",
+    "translations",
+    "multilanguage"
+  ],
+  "author": "Ville Vaarala <ville.l.vaarala@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vaaralav/keystone-translated-fields/issues"
+  },
+  "homepage": "https://github.com/vaaralav/keystone-translated-fields#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-es2015": "^6.24.1",
+    "jest": "^20.0.3",
+    "lodash": "^4.17.4",
+    "watch": "^1.0.2"
+  }
+}
